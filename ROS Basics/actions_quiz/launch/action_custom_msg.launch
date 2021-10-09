@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="actions_quiz"
+    type="vtol_action_server.py"
+    name="takeoff_landing"
+    output="screen" />
+</launch>
