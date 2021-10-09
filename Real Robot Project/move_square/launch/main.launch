@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="move_square"
+    type="move_in_square_service_server.py"
+    name="move_in_square_server_node"
+    output="screen"/>
+
+    <node pkg="move_square"
+    type="turtlebot3_sub_pub.py"
+    name="move_in_square_client_node"
+    output="screen"/>
+</launch>

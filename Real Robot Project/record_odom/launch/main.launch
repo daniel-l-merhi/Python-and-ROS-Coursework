@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="record_odom"
+    name="record_odom_as"
+    type="record_odom_as.py"
+    output="screen" />
+
+    <node pkg="record_odom"
+    name="record_odom_as_client"
+    type="record_odom_as_client.py"
+    output="screen" />
+</launch>

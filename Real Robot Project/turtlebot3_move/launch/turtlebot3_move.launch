@@ -1,0 +1,3 @@
+<launch>
+    <node name="turtlebot3_move_node" type="turtlebot3_sub_pub.py" pkg="turtlebot3_move" output="screen" />
+</launch>
